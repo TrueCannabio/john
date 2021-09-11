@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900);
+@fontFamily : "Heebo";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+}
+
+.header-container {
+  width: 1032px;
+  margin: 0 auto;
+  padding-top: 27px;
+}
+
+.header-container ul {
+  width: 250px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-container ul a {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.upper .upper-descr {
+  width: 505px;
+  margin-top: 200px;
+}
+
+.upper .upper-descr h2 {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: #21243D;
+  margin-bottom: 40px;
+}
+
+.upper .upper-descr p {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #21243D;
+  margin-bottom: 38px;
+}
+
+.upper .upper-descr button {
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.upper-img img {
+  margin-top: 200px;
+}
+
+.posts {
+  width: 100%;
+  background-color: #EDF7FA;
+}
+
+.posts .recent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
